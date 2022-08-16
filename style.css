@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bg{
+    background: url('images/front2.jpg') no-repeat center center/cover;
+    height: 410px;
+}
+
+#navbar{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul{
+    position:absolute;
+    display: flex;
+    padding: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 2px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-right: 20px;
+    opacity: 0.82;
+}
+
+#navbar ul li a:hover{
+    color: white;
+    background-color: black;
+}
+
+#login{
+    right: 70px;
+}
+
+/* #bg h1{
+    text-align: center; 
+    margin-top: 150px;
+}*/
+
+#webname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 200px;
+    margin-top: 132px;
+}
+
+#webname h1{
+    color: white;
+    text-align: center;
+}
+
+#webname p{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.btn1{
+    padding: 6px 20px;
+    border: 0px;
+    background-color: rgb(83, 53, 32);
+    color: white;
+    margin: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn1:hover{
+    border: 2px solid white;
+}
+
+.kitchens{
+    text-align: center;
+    background-color: burlywood
+}
+
+.kitchens h1{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Overlock', cursive;
+    background-color: rgba(79, 27, 27, 0.888);
+    color: white;
+    height: 100px;
+}
+
+.card{
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.card-color{
+    background-color: lightgrey;
+}
+
+#fooddelivery{
+    background-color: rgb(255, 180, 42);
+    display: flex;
+    height: 385px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+
+#fooddelivery div{
+    width: 640px;
+}
+
+#fooddelivery div h2{
+    color: black;
+    text-align: center;
+}
+
+#variety{
+    background-color: rgb(255, 203, 106);
+    display: flex;
+    height: 385px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+#homestyle{
+    background-color: rgb(255, 180, 42);
+    display: flex;
+    height: 385px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+#variety div{
+    width: 640px;
+}
+
+#homestyle div{
+    width: 640px;
+}
+
+h2{
+    font-size: 80px;
+    font-family: 'Overlock', cursive; 
+}
+
+.services p{
+    font-size: 20px;
+    font-style: normal;
+}
+
+footer {
+    background-color: rgb(98, 98, 98);
+    overflow: hidden;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+footer a:hover{
+    border: 2px solid white;
+    color: white;
+}
+
+/* Utility classes */
+.h-primary{
+    font-size: 4.8rem;
+    padding: 12px;
+    font-family: 'Overlock', cursive;
+}
+
+
+#loginform{
+    visibility: hidden;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    background-color: whitesmoke;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+}
+
+#signupform{
+    visibility: hidden;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    background-color: whitesmoke;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+}
+
+#about{
+    visibility: hidden;
+    height: 300px;
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    padding: 20px;
+    border: 1px, solid black;
+    border-radius: 6px;
+}
